@@ -381,3 +381,15 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+
+set nu
+set t_Co=256
+
+# encoding
+set encoding=utf-8
+set colorcolumn=80
+set termencoding=utf-8
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
